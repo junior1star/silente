@@ -23,3 +23,17 @@ nav a {
     width: 200px;
     margin-top: 10px;
 }
+
+.word-container {
+    font-size: 2rem;
+    margin: 20px;
+}
+
+#word {
+    transition: color 0.5s, transform 0.5s;
+}
+
+.transformed {
+    color: red;
+    transform: scale(1.2);
+}
