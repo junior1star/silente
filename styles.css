@@ -37,3 +37,25 @@ nav a {
     color: red;
     transform: scale(1.2);
 }
+
+.word-container {
+    font-size: 2rem;
+    display: inline-block;
+    position: relative;
+}
+
+#silent-e {
+    color: gray;
+    cursor: pointer;
+    position: absolute;
+    left: 100px;
+    opacity: 0;
+    transition: left 0.5s ease-in-out, opacity 0.5s;
+}
+
+.added {
+    left: 50px;
+    opacity: 1;
+    color: red;
+}
+
