@@ -6,4 +6,8 @@ function transformWord() {
     wordElement.innerText = "Hope";
     wordElement.classList.add("transformed");
 }
+function playSound(word) {
+    let audio = document.getElementById(word + "-audio");
+    audio.play();
+}
 
