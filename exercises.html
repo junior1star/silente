@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercises</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Silent "E" Exercise</h1>
+        <a href="index.html">Home</a>
+    </header>
+
+    <main>
+        <p>Drag the "e" to the word to change its sound!</p>
+        <div class="word">
+            <span id="word">Hop</span>
+            <span id="letter-e" draggable="true">e</span>
+        </div>
+    </main>
+
+    <script>
+        document.getElementById("letter-e").addEventListener("dragend", function() {
+            document.getElementById("word").innerText = "Hope";
+        });
+    </script>
+</body>
+</html>
